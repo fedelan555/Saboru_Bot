@@ -19,16 +19,16 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/ianalejandrook15x/Tanjiro",
+"homepage": "https://github.com/fedelan555/Tanjiro_bot",
 "author": {
 "name": "ianalejandrook14x"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/ianalejandrook15x/Tanjiro.git"
+"url": "git+https://github.com/fedelan555/Tanjiro_bot.git"
 },
 "bugs": {
-"url": "https://github.com/ianalejandrook15x/Tanjiro/issues"
+"url": "https://github.com/fedelan555/Tanjiro_bot/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
