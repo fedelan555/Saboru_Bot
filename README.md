@@ -37,8 +37,11 @@ npm update
 npm start
 ```
 
-----
 <details>
+----
+ 
+<details>
+ 
 ### **`PROPIETARIO` **
 <a
 href="https://github.com/fedelan55"><img src="https://github.com/fedelan55.png" width="130" height="130" alt="
