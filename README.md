@@ -36,3 +36,11 @@ npm update
 ```bash
 npm start
 ```
+
+----
+
+### **`PROPIETARIO` **
+<a
+href="https://github.com/fedelan55"><img src="https://github.com/fedelan55.png" width="130" height="130" alt="
+Neykoor ofc"/></a>
+
