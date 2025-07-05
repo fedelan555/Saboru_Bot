@@ -1,10 +1,9 @@
 {
-"name": "Tanjiro",
-"version": "0.0.1",
-"description": "Simple WhatsApp Bot Multi Device",
+"name": "Black-clover-MD",
+"version": "4.1.0",
+"description": "El mejor bot ",
 "main": "index.js",
 "type": "module",
-"botName": "Tanjiro-AI",
 "directories": {
 "lib": "lib",
 "src": "src",
@@ -14,25 +13,23 @@
 "start": "node index.js",
 "qr": "node index.js qr",
 "code": "node index.js code",
-"test": "node test.js",
-"test2": "nodemon index.js", 
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/ianalejandrook15x/Tanjiro",
+"homepage": "https://github.com/thecarlos19/black-clover-MD",
 "author": {
-"name": "ianalejandrook14x"
+"name": "thecarlos19"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/ianalejandrook15x/Tanjiro.git"
+"url": "git+https://github.com/thecarlos19/black-clover-MD.git"
 },
 "bugs": {
-"url": "https://github.com/ianalejandrook15x/Tanjiro/issues"
+"url": "https://github.com/thecarlos19/black-clover-MD/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
-"@whiskeysockets/baileys": "github:ds6/bails",
+"@whiskeysockets/baileys": "GataNina-Li/Baileys",
 "@adiwajshing/keyed-db": "^0.2.4",
 "@bochilteam/scraper": "^4.2.4",
 "@bochilteam/scraper-sosmed": "^1.0.5",
@@ -40,6 +37,8 @@
 "@ibaraki-douji/pixivts": "^2.4.1",
 "awesome-phonenumber": "^3.4.0",
 "ruhend-scraper": "^7.0.4",
+"gradient-string": "^2.0.2",
+"google-libphonenumber": "3.2.38",
 "axios": "^1.1.2",
 "acrcloud": "^1.4.0",
 "form-data": "^4.0.0",
@@ -54,7 +53,9 @@
 "fluent-ffmpeg": "^2.1.2",
 "formdata-node": "^5.0.0",
 "human-readable": "^0.2.1",
+"didyoumean": "^1.2.2",
 "jsdom": "^20.0.1",
+"jimp": "^0.16.1",
 "link-preview-js": "^3.0.0",
 "lodash": "^4.17.21",
 "lowdb": "^3.0.0",
@@ -80,18 +81,18 @@
 "syntax-error": "^1.4.0",
 "terminal-image": "^2.0.0",
 "url-regex-safe": "^3.0.0",
-"uuid":"^10.0.0",
+"uuid": "^10.0.0",
 "translate-google-api": "^1.0.4",
 "google-it": "^1.6.4",
 "yt-search": "^2.10.3",
-"@vitalets/google-translate-api": "^9.2.0",
+"@vitalets/google-translate-api": "^8.0.0",
 "hispamemes": "^1.0.7",
 "openai": "^3.3.0",
+"aptoide-scraper": "github:DIEGO-OFC/dv-aptoide-scraper",
 "megajs": "^1.1.3",
 "mime-types": "^2.1.35",
 "api-dylux": "^1.7.2",
-"yargs": "^17.6.0",
-"whatsapp-web.js": "^1.23.0"
+"yargs": "^17.3.1"
 },
 "optionalDependencies": {
 "wa-sticker-formatter": "^4.3.2",
