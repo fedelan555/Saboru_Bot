@@ -99,7 +99,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       caption: text,
       buttons: [
         { buttonId: `${_p}owner`, buttonText: { displayText: '👑 OWNER' }, type: 1 },
-        { buttonId: `${_p}reg soygay.555`, buttonText: { displayText: '👻 AUTO VERIFICAR' }, type: 1 }
+        { buttonId: `${_p}Grupos`, buttonText: { displayText: '👻 GRUPOS' }, type: 1 }
       ],
       viewOnce: true
     }, { quoted: m })
