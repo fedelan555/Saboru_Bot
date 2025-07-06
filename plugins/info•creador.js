@@ -15,9 +15,6 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     // Info del dueño actualizada
     const ownerName = 'fede.xyz';
     const ownerNumber = '5491156178758';
-    const ownerEmail = 'fedelanyt20@gmail.com';
-    const ownerRegion = 'Argentina';
-
     // VCARD con datos actualizados
     let list = [{
         displayName: ownerName,
