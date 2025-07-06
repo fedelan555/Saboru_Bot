@@ -16,7 +16,6 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     const ownerName = 'fede.xyz';
     const ownerNumber = '5491156178758';
     const ownerEmail = 'fedelanyt20@gmail.com';
-    const ownerInstagram = 'nada';
     const ownerRegion = 'Argentina';
 
     // VCARD con datos actualizados
@@ -25,19 +24,12 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:${ownerName}\n` +
             `item1.TEL;waid=${ownerNumber}:${ownerNumber}\n` +
             `item1.X-ABLabel:Número\n` +
-            `item2.EMAIL;type=INTERNET:${ownerEmail}\n` +
-            `item2.X-ABLabel:Email\n` +
-            `item3.URL:${ownerInstagram}\n` +
-            `item3.X-ABLabel:Instagram\n` +
-            `item4.ADR:;; ${ownerRegion};;;;\n` +
-            `item4.X-ABLabel:Región\nEND:VCARD`,
     }];
 
     const imageUrl = 'https://qu.ax/KdnAO.jpg';
 
     // Texto personalizado para el reply
     const dev = `Desarrollador: ${ownerName}`;
-    const txt = `⚔ creador del bot: ${ownerName}\n📞 Número: +${ownerNumber}`;
 
     await conn.sendMessage(m.chat, {
         contacts: {
