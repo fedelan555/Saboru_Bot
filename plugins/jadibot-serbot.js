@@ -31,7 +31,7 @@ let crm4 = "IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz"
 let drm1 = ""
 let drm2 = ""
 let rtx = 
-"✞ঔৣr̴ *𝘽𝙡𝙖𝙘𝙠 𝘾𝙡𝙤𝙫𝙚𝙧 - 𝙎𝙪𝙗 𝘽𝙤𝙩 𝙈𝙤𝙙𝙤* ঔৣ✞\n" +
+"✞ঔৣr̴ *Tanjiro Bot - 𝙎𝙪𝙗 𝘽𝙤𝙩 𝙈𝙤𝙙𝙤* ঔৣ✞\n" +
 "[⚙️] Conexión de Grimorio Sub-Bot: *QR\n" +
 "⚡ *Invocación mágica inicializada...* ☠️ Grimorio estableciendo vínculo espiritual...\n" +
 "🜲 Escanea este *código QR mágico* desde otro 📱 o tu 🖥️ para convertirte en un ✧ *Sub-Bot Temporal* al servicio del Reino Mágico.\n" +
@@ -42,7 +42,7 @@ let rtx =
 "⏳ *¡Alerta, Caballero Mágico!* Este sello mágico se desvanece en ⚠️ *45 segundos*...\n" +
 "🧿 𝙎𝙄𝙎𝙏𝙀𝙈𝘼 ➤ [ QR ACTIVO ] — 𝙀𝙎𝘾𝘼𝙉𝙀𝘼 𝙔𝘼 ⚔️"
 let rtx2 = 
-"✞ঔৣr̴ *𝘽𝙡𝙖𝙘𝙠 𝙘𝙡𝙤𝙫𝙚𝙧 - 𝙎𝙪𝙗 𝘽𝙤𝙩* ঔৣ✞\n\n" +
+"✞ঔৣr̴ *Tanjiro Bot - 𝙎𝙪𝙗 𝘽𝙤𝙩* ঔৣ✞\n\n" +
 "⌁ *Conexión de Grimorio: CÓDIGO* ⌁\n\n" +
 "⚡ *Canalizando energía arcana...* ☠️ Grimorio despertando vínculo por código mágico...\n\n" +
 "🜲 Usa este *Código Espiritual* para convertirte en un ✧ *Sub-Bot Temporal* bajo el contrato del Reino de las Sombras.\n\n" +
