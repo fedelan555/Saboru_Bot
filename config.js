@@ -40,23 +40,23 @@ global.blackJadibts = true
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
 global.packsticker = `
-┃ ✞ 𝙱𝙾𝚃: 𝙱𝚕𝚊𝚌𝚔 𝙲𝚕𝚘𝚟𝚎𝚛 ☘
-┃ ✞ 𝙰𝚄𝚃𝙾𝚁: 👑 𝚃𝙷𝙴 𝙲𝙰𝚁𝙻𝙾𝚂 ᚲ`;
+┃ ✞ 𝙱𝙾𝚃: 𝗍ᥲᥒȷіr᥆_ᥲᥣ ☘
+┃ ✞ 𝙰𝚄𝚃𝙾𝚁: 👑 FEDE ᚲ`;
 
-global.packname = `✠ 𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘ `;
+global.packname = `✠ 𝗍ᥲᥒȷіr᥆_ᥲᥣ ☘ `;
 global.author = `
 ⇝ 📆 ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}
 ⇝ ⏰ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')}
 ♾━━━━━━━━━━━━━━━♾`;
 
-global.wm = '𝑩𝒍𝒂𝒄𝒌 𝑪𝒍𝒐𝒗𝒆𝒓 ☘';
-global.titulowm = '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘';
-global.igfg = 'ᥫ𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
-global.botname = '𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ the Legends ⚡'
-global.textbot = '𝑩𝑳𝑨𝑪𝑲 𝑪𝑳𝑶𝑽𝑬𝑹  : 𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
-global.gt = '͟͞𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘͟͞';
-global.namechannel = '𝑩𝑳𝑨𝑪𝑲 𝑪𝑳𝑶𝑽𝑬𝑹 / 𝐓𝐇𝐄 𝐂𝐀𝐑𝐋𝐎𝐒'
+global.wm = '𝗍ᥲᥒȷіr᥆_ᥲᥣ ⚔';
+global.titulowm = '𝗍ᥲᥒȷіr᥆_ᥲᥣ ⚔';
+global.igfg = 'fede'
+global.botname = '𝗍ᥲᥒȷіr᥆_ᥲᥣ ⚔'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ fede ⚔'
+global.textbot = '𝗍ᥲᥒȷіr᥆_ᥲᥣ  : fede'
+global.gt = '͟͞𝗍ᥲᥒȷіr᥆_ᥲᥣ ☘͟͞';
+global.namechannel = '𝗍ᥲᥒȷіr᥆_ᥲᥣ / fede'
 
 //*─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─✞─ׄ─ׅ─ׄ─*
 
