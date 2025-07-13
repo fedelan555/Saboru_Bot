@@ -43,7 +43,7 @@ const defaultMenu = {
 
 “Los verdaderos jugadores no sueñan con destacar. Ellos destacan por cómo juegan.”%readmore`.trim(),
 
-  header: '\n📂 Sección: *%category*',
+  header: '\n⚽ MOD: *%category*',
   body: '🔹 %cmd',
   footer: '━━━━━━━━━━━━━',
   after: '\n⚙️ Usa tu talento, no tus excusas.'
@@ -108,9 +108,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname}) => {
       image: { url: 'https://files.catbox.moe/xapomp.jpg'},
       caption: menuText,
       buttons: [
-        { buttonId: `${_p}modoego`, buttonText: { displayText: '🔥 Activar Modo Ego'}, type: 1},
-        { buttonId: `${_p}vision360`, buttonText: { displayText: '👁️ Visión 360º'}, type: 1},
-        { buttonId: `${_p}rankingstrikers`, buttonText: { displayText: '🥇 Ver Ranking'}, type: 1}
+        { buttonId: `${_p}reg Soygay.999`, buttonText: { displayText: '⚽ AUTO VERIFICAR'}, type: 1},
+        { buttonId: `${_p}code`, buttonText: { displayText: '🤖 CODE'}, type: 1},
+        { buttonId: `${_p}owner`, buttonText: { displayText: '👑 CREADOR'}, type: 1}
       ],
       footer: '𝗕𝗹𝘂𝗲 𝗟𝗼𝗰𝗸 𝗦𝘆𝘀𝘁𝗲𝗺 — 𝗦𝗮𝗲 𝗕𝗼𝘁',
       viewOnce: true
