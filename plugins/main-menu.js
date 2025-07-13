@@ -1,5 +1,6 @@
 import { xpRange} from '../lib/levelling.js'
 
+// Estilo de texto sobrio tipo Sae
 const textSae = (text) => {
   const charset = {
     a: '𝗔', b: '𝗕', c: '𝗖', d: '𝗗', e: '𝗘', f: '𝗙', g: '𝗚',
@@ -10,6 +11,7 @@ const textSae = (text) => {
   return text.toLowerCase().split('').map(c => charset[c] || c).join('')
 }
 
+// Etiquetas de comandos organizadas por categorías temáticas
 let tags = {
   tecnica: textSae('Técnica de Pase'),
   vision: textSae('Lectura de Juego'),
@@ -17,27 +19,24 @@ let tags = {
   control: textSae('Control Mental')
 }
 
+// Plantilla visual del menú
 const defaultMenu = {
   before: `
-⚽︵‿︵‿︵‿︵‿︵
-╭━━━ 𝗦𝗔𝗘 𝗜𝗧𝗢𝗦𝗛𝗜 𝗕𝗢𝗧 ━╮
-┃ 𝗠𝗘𝗡𝗨 𝗗𝗘 𝗘𝗚𝗢 𝗘𝗟𝗜𝗧𝗘 ┃
-╰━━━━━━━━━━━━╯
+🌌 𝗘𝗚𝗢 𝗣𝗥𝗢𝗙𝗨𝗡𝗗𝗢 — 𝗦𝗔𝗘 𝗜𝗧𝗢𝗦𝗛𝗜 🌌
 
-👟 Usuario: *%name*
-🎖️ Nivel: *%level*
-📊 EXP: %exp/%maxexp
-📡 Modo: %mode
-🧠 Registro global: %totalreg
-⏱️ Tiempo activo: %muptime
+🧠 Usuario: *%name*
+⚡ Nivel mental: *%level*
+🌐 Mundo: *%mode*
+📉 EXP: %exp/%maxexp
+🔮 Tiempo activo: %muptime
 
-“𝗟𝗮 𝗲𝗹𝗶𝘁𝗲 𝗻𝗼 𝗽𝗶𝗲𝗻𝘀𝗮, 𝗲𝗷𝗲𝗰𝘂𝘁𝗮.”%readmore`.trim(),
+“𝗘𝗻 𝗹𝗮 𝗼𝘀𝗰𝘂𝗿𝗶𝗱𝗮𝗱 𝗲𝗹 𝘁𝗮𝗹𝗲𝗻𝘁𝗼 𝗿𝗲𝗮𝗹 𝗿𝗲𝘀𝗽𝗶𝗿𝗮.”%readmore`.trim(),
 
-  header: '\n⚙️ Sección: *%category*',
-  body: '🔹 %cmd',
-  footer: '────────────────────',
-  after: '\n⚽ Usa los comandos como un profesional.'
-}
+  header: '\n🧬 Núcleo: *%category*',
+  body: '⚛ %cmd',
+  footer: '━━━━━━━━━━━',
+  after: '\n☄️ Desata tu genotipo de striker supremo.'
+      }
 
 let handler = async (m, { conn, usedPrefix: _p}) => {
   try {
@@ -55,7 +54,7 @@ let handler = async (m, { conn, usedPrefix: _p}) => {
       prefix: 'customPrefix' in p,
       limit: p.limit,
       premium: p.premium,
-      enabled:!p.disabled,
+      enabled:!p.disabled
 }))
 
     for (let plugin of help) {
@@ -65,20 +64,7 @@ let handler = async (m, { conn, usedPrefix: _p}) => {
 }
 
     const { before, header, body, footer, after} = defaultMenu
-
-    let menuText = [
-      before,
-...Object.keys(tags).map(tag => {
-        const cmds = help
-.filter(menu => menu.tags.includes(tag))
-.map(menu => menu.help.map(cmd => body.replace(/%cmd/g, menu.prefix? cmd: _p + cmd)).join('\n'))
-.join('\n')
-        return `${header.replace(/%category/g, tags[tag])}\n${cmds}\n${footer}`
-}),
-      after
-    ].join('\n')
-
-    let replace = {
+    const replace = {
       '%': '%',
       name,
       level,
@@ -90,11 +76,21 @@ let handler = async (m, { conn, usedPrefix: _p}) => {
       readmore: String.fromCharCode(8206).repeat(4001)
 }
 
-    let finalText = menuText.replace(/%(\w+)/g, (_, key) => replace[key] || '')
+    let menuText = [
+      before,
+...Object.keys(tags).map(tag => {
+        const cmds = help
+.filter(menu => menu.tags.includes(tag))
+.map(menu => menu.help.map(cmd => body.replace(/%cmd/g, menu.prefix? cmd: _p + cmd)).join('\n'))
+.join('\n')
+        return `${header.replace(/%category/g, tags[tag])}\n${cmds}\n${footer}`
+}),
+      after
+    ].join('\n').replace(/%(\w+)/g, (_, key) => replace[key] || '')
 
     await conn.sendMessage(m.chat, {
-      image: { url: 'https://files.catbox.moe/xapomp.jpg'}, // Imagen tipo Blue Lock
-      caption: finalText,
+      image: { url: 'https://files.catbox.moe/xapomp.jpg'}, // Imagen Blue Lock
+      caption: menuText,
       buttons: [
         {
           buttonId: `${_p}modoego`,
@@ -119,7 +115,7 @@ handler.register = false
 export default handler
 
 function clockString(ms) {
-const h = isNaN(ms)? '--': Math.floor(ms / 3600000)
+  const h = isNaN(ms)? '--': Math.floor(ms / 3600000)
   const m = isNaN(ms)? '--': Math.floor(ms / 60000) % 60
   const s = isNaN(ms)? '--': Math.floor(ms / 1000) % 60
   return [h, m, s].map(v => v.toString().padStart(2, '0')).join(':')
