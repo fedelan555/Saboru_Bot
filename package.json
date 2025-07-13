@@ -1,5 +1,5 @@
 {
-"name": "Black-clover-MD",
+"name": "sae_itoshi-Bot",
 "version": "4.1.0",
 "description": "El mejor bot ",
 "main": "index.js",
@@ -16,16 +16,16 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/thecarlos19/black-clover-MD",
+"homepage": "https://github.com/fedelan555/sae_itoshi-Bot.git",
 "author": {
-"name": "thecarlos19"
+"name": "fedexyz"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/thecarlos19/black-clover-MD.git"
+"url": "git+https://github.com/fedelan555/sae_itoshi-Bot.git"
 },
 "bugs": {
-"url": "https://github.com/thecarlos19/black-clover-MD/issues"
+"url": "https://github.com/fedelan555/sae_itoshi-Bot/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
