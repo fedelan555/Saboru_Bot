@@ -3,7 +3,7 @@ import util from 'util';
 const execPromise = util.promisify(exec);
 
 // 🧠 CONFIGURA AQUÍ TU REPO
-const REPO_URL = 'https://github.com/El-brayan502/NagiBotV3.git'; // ← cambia esto
+const REPO_URL = 'https://github.com/fedelan555/sae_itoshi-Bot'; // ← cambia esto
 const REPO_BRANCH = 'main'; // ← o 'master' según tu repo
 
 let handler = async (m) => {
