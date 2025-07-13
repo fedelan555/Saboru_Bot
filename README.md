@@ -56,7 +56,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/fedelan555/AsunaBot-Al && cd AsunaBot-Al
+git clone https://github.com/fedelan555/sae_itoshi-Bot && cd sae_itoshi-Bot
 ```
 
 ```bash
