@@ -89,26 +89,16 @@ let handler = async (m, { conn, usedPrefix: _p}) => {
     ].join('\n').replace(/%(\w+)/g, (_, key) => replace[key] || '')
 
     await conn.sendMessage(m.chat, {
-  image: { url: 'https://files.catbox.moe/xapomp.jpg'}, // Imagen estilo Blue Lock
-  caption: finalText,
-  buttons: [
-    {
-      buttonId: `${_p}modoego`,
-      buttonText: { displayText: '🔥 ACTIVAR MODO EGO'},
-      type: 1
-},
-    {
-      buttonId: `${_p}vision360`,
-      buttonText: { displayText: '👁️ VISIÓN 360º'},
-      type: 1
-},
-    {
-      buttonId: `${_p}rankingstrikers`,
-      buttonText: { displayText: '🥇 VER TOP EGO'},
-      type: 1
+      image: { url: 'https://files.catbox.moe/xapomp.jpg'}, // Imagen Blue Lock
+      caption: menuText,
+      buttons: [
+        {
+          buttonId: `${_p}modoego`,
+          buttonText: { displayText: '🔥 ACTIVAR MODO EGO'},
+          type: 1
 }
-  ],
-  viewOnce: true
+      ],
+      viewOnce: true
 }, { quoted: m})
 
 } catch (e) {
@@ -129,4 +119,4 @@ function clockString(ms) {
   const m = isNaN(ms)? '--': Math.floor(ms / 60000) % 60
   const s = isNaN(ms)? '--': Math.floor(ms / 1000) % 60
   return [h, m, s].map(v => v.toString().padStart(2, '0')).join(':')
-}
+  }
