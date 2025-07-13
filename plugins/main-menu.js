@@ -5,7 +5,7 @@ import { xpRange} from '../lib/levelling.js'
 let Styles = (text, style = 1) => {
   let xStr = 'abcdefghijklmnopqrstuvwxyz1234567890'.split('');
   let yStr = Object.freeze({
-    1: '𝗔𝗕𝗖𝗗𝗘𝗙𝗚𝗛𝗜𝗝𝗞𝗟𝗠𝗡𝗢𝗣𝗤𝗥𝗦𝗧𝗨𝗩𝗪𝗫𝗬𝗭𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵𝟬'
+    1: 'ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘqʀꜱᴛᴜᴠᴡxʏᴢ1234567890'
 });
   let replacer = [];
   xStr.forEach((v, i) => replacer.push({
