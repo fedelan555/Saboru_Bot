@@ -1,9 +1,9 @@
-<h1 align="center">⚔ SubaruBotV2.0 🎩</h1>
+!-- Banner animado -->
 <p align="center">
-  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Bienvenido+al+Repositorio;Subaru+BOT+2.0;Gracias+por+preferirnos;Creado+por+fede;💥+BOOM!!!;🔥)](https://git.io/typing-svg)
-![Tanjiro](https://files.catbox.moe/dln6o2.jpg)
+  <img src="https://files.catbox.moe/44qt5t.jpg" alt="SubaruBotV2.0 Banner" width="100%"/>
+</p>
 
+<h1 align="center">⚡ SubaruBotV2.0 </h1> WhatsApp Multi-Device Bot</h1>
   
 ![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
