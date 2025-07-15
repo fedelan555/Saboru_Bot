@@ -3,7 +3,7 @@
   <img src="https://files.catbox.moe/dln6o2.jpg" alt="SubaruBotV2.0 Banner" width="100%"/>
 </p>
 
-<h1 align="center">⚔ SubaruBotV2.0 - WhatsApp Multi-Device Bot</h1>
+<h1 align="center">⚔ SubaruBotV2.0 - WhatsApp Multi-Device</h1>
 
 ![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
