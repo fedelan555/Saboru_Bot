@@ -5,7 +5,15 @@
 
 <h1 align="center">⚔ SubaruBotV2.0 - WhatsApp Multi-Device</h1>
 
-![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
+----
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/fedelan555/SubaruBotV2.0?style=for-the-badge&color=yellow" />
+  <img src="https://img.shields.io/github/forks/fedelan555/NSubaruBotV2.0?style=for-the-badge&color=orange" />
+  <img src="https://img.shields.io/github/issues/El-brayan502/NagiBotV2?style=for-the-badge&color=blue" />
+  <img src="https://komarev.com/ghpvc/?username=El-brayan502&label=Vistas&style=for-the-badge&color=brightgreen" />
+</p>
+----
 
 ## 👤 Creador
 
