@@ -1,4 +1,4 @@
-!-- Banner animado -->
+## !-- Banner animado -->
 <p align="center">
   <img src="https://files.catbox.moe/dln6o2.jpg" alt="SubaruBotV2.0 Banner" width="100%"/>
 </p>
