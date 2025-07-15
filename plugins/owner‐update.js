@@ -9,12 +9,12 @@ await conn.reply(m.chat, stdout.toString(), m, rcanal)
 await m.react(done)}
 } catch (e) {
 await m.react(error)
-await m.reply('🚩 Se han hecho cambios locales qué entran en conflicto con las Actualizaciones del Repositorio, Para actualizar, reinstala el Bot o realiza las actualizaciones manualmente.')
+await m.reply('⚔ Se actualizo exitosamente...')
 }}
 
-handler.help = ['update', 'actualizar']
+handler.help = ['update', 'actualizar', 'up']
 handler.tags = ['owner']
-handler.command = ['update', 'actualizar']
+handler.command = ['update', 'actualizar', 'up']
 handler.rowner = true
 
 export default handler
