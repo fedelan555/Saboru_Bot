@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://files.catbox.moe/44qt5t.jpg" alt="SubaruBotV2.0 Banner" width="100%"/>
+  <img src="https://files.catbox.moe/lpragp.jpg" alt="SubaruBotV2.0 Banner" width="100%"/>
 </p>
 
-<h1 align="center">⚡ SubaruBotV2.0 </h1> WhatsApp Multi-Device Bot</h1>
+<h1 align="center">⚔ SubaruBotV2.0 </h1> WhatsApp Multi-Device Bot</h1>
   
 ![line](https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif)
 
