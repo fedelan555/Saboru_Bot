@@ -104,20 +104,20 @@ clear
 echo -e "\e[36m
 ┏━━━━━━━━━⪩
 ┃˚₊ · ͟͟͞͞➳❥ 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎́𝐍
-┃⏤͟͟͞͞ Tanjiro Bot 
+┃⏤͟͟͞͞ Black Clover - MD
 ┗━━━━━━━━━⪩
 
 ✰ Mode by:
-» fedexyz 
+» the Carlos 
 ✰ Créditos:
 » devdiego 
 ✰ GitHub:
 » https://github.com/Dev-Diego
 ✰ Número del creador del bot:
-» 54 1256178758
+» +52 5544876071
 
 𝐆 𝐑 𝐀 𝐂 𝐈 𝐀 𝐒, 𝐏 𝐎 𝐑, 𝐏 𝐑 𝐄 𝐅 𝐄 𝐑 𝐈 𝐑 𝐍 𝐎 𝐒\n\e[0m"
 
 # Inicio
-echo -e "\033[01;32mIniciando Tanjiro Bot...\033[0m"
+echo -e "\033[01;32mIniciando Black Clover Bot...\033[0m"
 npm start

@@ -39,15 +39,15 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 
 let { say } = cfonts
 
-console.log(chalk.bold.redBright(`\n⚔ Saboru bot 🎩\n`))
+console.log(chalk.bold.redBright(`\n✞ 𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘\n`))
 
-say('Saboru Bot', {
+say('Black-Clover', {
 font: 'block',
 align: 'center',
 colors: ['redBright']
 })
 
-say(`Developed By • Fedexyz`, {
+say(`Developed By • The Carlos`, {
 font: 'console',
 align: 'center',
 colors: ['blueBright']
@@ -165,7 +165,7 @@ if (!!phoneNumber) {
 addNumber = phoneNumber.replace(/[^0-9]/g, '')
 } else {
 do {
-phoneNumber = await question(chalk.bgBlack(chalk.bold.greenBright(`✞ Por favor, Ingrese el número de WhatsApp.\n${chalk.bold.yellowBright(`✞  Ejemplo: 5491156×××××`)}\n${chalk.bold.magentaBright('---> ')}`)))
+phoneNumber = await question(chalk.bgBlack(chalk.bold.greenBright(`✞ Por favor, Ingrese el número de WhatsApp.\n${chalk.bold.yellowBright(`✞  Ejemplo: 52554×××××××`)}\n${chalk.bold.magentaBright('---> ')}`)))
 phoneNumber = phoneNumber.replace(/\D/g,'')
 if (!phoneNumber.startsWith('+')) {
 phoneNumber = `+${phoneNumber}`
